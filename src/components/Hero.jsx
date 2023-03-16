@@ -13,9 +13,14 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1>Hi, I'm <span className='text-[#915eff]'>Juan Pablo</span></h1>
-        </div>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Juan Pablo</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            Full Stack<br className='sm:block hidden'/>Software Engineer
+          </p>
+        </div>  
       </div>
+
+      <ComputersCanvas/>
     </section>
   )
 }
