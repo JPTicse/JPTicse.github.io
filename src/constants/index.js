@@ -9,20 +9,20 @@ import {
   html,
   javascript,
   jobit,
-  meta,
+  holberton,
   mobile,
   mongodb,
   nodejs,
   reactjs,
   redux,
-  shopify,
   starbucks,
   tailwind,
-  tesla,
+  ctc,
   threejs,
   tripguide,
   typescript,
   web,
+  corecapital
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +50,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Graphic Designer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Tech Teacher",
     icon: creator,
   },
 ];
@@ -116,55 +116,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Core Capital",
+    icon: corecapital,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a complete project in less than 2 months with a stack never seen, reducing times in the operation process of the company and adding security to its system.",
+      "Led and mentoring a 4 member team in different areas of the project as frontend, backend and database using SCRUM as agile methodology."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Tech Teacher",
+    company_name: "Crack the Code",
+    icon: ctc,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2022 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Got a satisfaction rate greater than 95% by teaching web design and programming courses for children and teenagers.",
+      "Developed educational programs, collaborating with new peers to help them improve their teaching techniques.",
+    ],
+  },
+  {
+    title: "Student Tutor",
+    company_name: "Holberton",
+    icon: holberton,
+    iconBg: "#E6DEDD",
+    date: "Sep 2022 - Feb 2023",
+    points: [
+      "Decreased student dropout rate by 48% through personalized teaching methods tailored to individual learning needs.",
+      "Guided a group of 25 students in learning new programming languages, while creating audiovisual content for them.",
     ],
   },
 ];
