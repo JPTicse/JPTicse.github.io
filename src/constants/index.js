@@ -11,6 +11,7 @@ import {
   jobit,
   holberton,
   mobile,
+  hiboulogo,
   mongodb,
   nodejs,
   reactjs,
@@ -118,8 +119,8 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Hibou Corp",
-    icon: corecapital,
-    iconBg: "#E6DEDD",
+    icon: hiboulogo,
+    iconBg: "#007eb9",
     date: "Apr 2023 - Current",
     points: [
       "Contributed in +10 projects for different companies, using technologies as Python and JavaScript.",

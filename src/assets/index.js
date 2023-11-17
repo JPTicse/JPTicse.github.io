@@ -25,6 +25,7 @@ import holberton from "./company/holberton.png";
 import starbucks from "./company/starbucks.png";
 import ctc from "./company/ctc.png";
 import corecapital from './company/corecapital.png'
+import hiboulogo from "./company/hiboulogo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,6 +54,7 @@ export {
   typescript,
   threejs,
   holberton,
+  hiboulogo,
   starbucks,
   ctc,
   corecapital,
