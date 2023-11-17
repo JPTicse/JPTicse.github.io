@@ -116,6 +116,17 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Hibou Corp",
+    icon: corecapital,
+    iconBg: "#E6DEDD",
+    date: "Apr 2023 - Current",
+    points: [
+      "Contributed in +10 projects for different companies, using technologies as Python and JavaScript.",
+      "Provided support through video calls and emails, ensuring their needs throughout the project lifecycle."
+    ],
+  },
+  {
     title: "Full Stack Developer",
     company_name: "Core Capital",
     icon: corecapital,
